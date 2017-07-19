@@ -52,6 +52,8 @@ void make_info(names *pst)
 void show_info(const names *pst)
 {
     printf("The name of %s%s has %d characters!\n",pst->fname,pst->lname,pst->letter);
+
+    printf("\n");    
 }
 
 
